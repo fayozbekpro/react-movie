@@ -1,0 +1,77 @@
+.SimilarCard {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 20px;
+    
+    .img {
+        img {
+            width: 100%;
+        }
+        width: 150px;
+    }
+
+    .text {
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 150px;
+        padding-top: 20px;
+
+        .text-title {
+            text-align: center;
+            width: 100%;
+            letter-spacing: 2px;
+        }
+
+        .text-desc {
+            text-align: center;
+            width: 100%;
+            letter-spacing: 1.6px;
+            font-size: 10px !important;
+            margin-top: 10px;
+        }
+    }
+}
+
+
+@media (max-width: 600px) {
+    .SimilarCard {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin: 20px;
+        
+        .img {
+            img {
+                width: 100%;
+            }
+            width: 100px;
+        }
+    
+        .text {
+            color: white;
+            font-size: 15px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            padding-top: 20px;
+    
+            .text-title {
+                text-align: center;
+                width: 100%;
+                letter-spacing: 2px;
+            }
+        }
+    }
+}

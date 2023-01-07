@@ -1,0 +1,82 @@
+.person {
+    width: 100%;
+    min-height: 82%;
+    background: #1F2324;
+    padding-top: 60px !important;
+    border-top: 3px solid #f73a4c;
+
+    .person-main {
+        width: 1000px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        // background: #fff;
+        .person-img {
+            width: 500px;
+            img {
+                width: 100%;
+            }
+            padding-right: 10px !important;
+        }
+
+        .person-datas {
+            width: 500px;
+            padding-left: 10px !important;
+
+            .name {
+                font-size: 23px;
+                color: white !important;
+                padding-bottom: 20px;
+            }
+
+            .bio{
+                font-size: 13px;
+                color: rgb(206, 206, 206);
+                letter-spacing: .1px !important;
+                padding-bottom: 30px;
+            }
+
+            .birth {
+                font-size: 20px !important;
+                font-weight: bold;
+                color: #f73a4c;
+            }
+        }
+    }
+    
+
+    .movie-credits {
+        width: 100%;
+
+        .movies {
+            width: 90%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+    }
+
+    .title {
+        font-size: 34px !important;
+        margin-top: 90px;
+    }
+}
+
+
+@media (max-width: 1050px) {
+    .person {
+        .person-main {
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+
+            .person-datas {
+                padding-top: 20px;
+            }
+        }
+    }
+}
